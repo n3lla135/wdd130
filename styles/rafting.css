@@ -83,3 +83,17 @@ h2{
     text-align: justify;
     
 }
+
+.Caption{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+}
+
+
+.Sociallinks{
+display: flex;
+justify-content: right;
+flex-direction: row;
+width:100%;
+}
