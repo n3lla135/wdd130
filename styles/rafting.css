@@ -8,6 +8,7 @@
    
 }
 body{
+    
     .lato-light {
         font-family: "Lato", serif;
         font-weight: 300;
@@ -45,4 +46,40 @@ nav a:link, nav a:visited{
 nav a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+.Navigation{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.borderhero{
+
+    border:1px solid black;
+    padding: 20px;
+  display: flex;
+  flex-direction:row;
+    justify-content:space-evenly;
+}
+.borderhero p{
+    width: 75%
+}
+
+ h1{
+    text-align: center;
+ } 
+h2{
+    text-align: center;
+}
+
+.histophoto{
+    display: flex;
+    flex-direction:row;  
+}
+.histophoto p{
+    text-align: justify;
+    
 }
