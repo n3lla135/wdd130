@@ -1,27 +1,22 @@
-:root{
-    --primary-color:#4A188C;
-    --secondary-color:#40DDAE;
-    --accent1-color:#7753ED;
-    --accent2-color:#625F81;
-    --heading-font:Lato-regular 400 ,serif;
-    --paragraph-font:Lato-Light 300 ,serif;
+:root {
+    --primary-color: #4A188C;
+    --secondary-color: #40DDAE;
+    --accent1-color: #7753ED;
+    --accent2-color: #625F81;
+    --nav-background-color: #625F81; /* Example value */
+    --nav-link-color: white; /* Example value */
+    --nav-hover-link-color: #40DDAE; /* Example value */
+    --nav-hover-background-color: #555; /* Example value */
    
 }
 body{
-    
-    .lato-light {
-        font-family: "Lato", serif;
-        font-weight: 300;
-        font-style: normal;
+    font-family: 'Lato', sans-serif; /* Use the imported font */
+    font-weight: 300; /* Set weight here if needed */
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
       }
-      
-      .lato-regular {
-        font-family: "Lato", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-color: var(--primary-color);
-}
+
 header{
     padding: 20px;
     background-color:var(--accent1-color);
@@ -33,19 +28,14 @@ nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 nav a{
     display: block;
     color:var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
-}
-nav a:link, nav a:visited{
-    color: var(--nav-link-color);
-}
-nav a:hover{
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
 }
 
 .Navigation{
@@ -96,4 +86,47 @@ display: flex;
 justify-content: right;
 flex-direction: row;
 width:100%;
+}
+
+form label,
+form input,
+form textarea {
+    display:block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: var(--primary-color-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.Sociallinks {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.Sociallinks a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.Sociallinks img {
+    /* Style images here if needed */
+    width: 50px; /* Or whatever size you prefer */
+    height: 50px;
 }
