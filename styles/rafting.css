@@ -128,3 +128,86 @@ footer {
     width: 50px; /* Or whatever size you prefer */
     height: 50px;
 }
+
+
+
+.call-to-action {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f0f0f0; /* Light gray background */
+    margin-bottom: 2rem; /* Add some spacing below */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.trip-descriptions {
+    display: flex;
+    flex-wrap: wrap; /* Allow trips to wrap onto multiple lines */
+    justify-content: space-around; /* Distribute trips evenly */
+}
+
+.trip {
+    width: 30%; /* Adjust width for desired layout */
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.trip ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.trip-table {
+    overflow-x: auto; /* Add horizontal scrollbar if table is too wide */
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: #f0f0f0;
+}
+
+/* Responsive Design (Example - adjust breakpoints as needed) */
+@media (max-width: 768px) {
+    .trip {
+        width: 45%; /* Two trips per row on smaller screens */
+    }
+}
+
+@media (max-width: 500px) {
+    .trip {
+        width: 100%; /* One trip per row on very small screens */
+    }
+}
+
+footer img { /* Style the wireframe image in the footer */
+    max-width: 200px; /* Limit width */
+    height: auto;
+    display: block; /* Make it a block element */
+    margin: 10px auto; /* Center it */
+}
