@@ -3,14 +3,14 @@
     --secondary-color: #40DDAE;
     --accent1-color: #7753ED;
     --accent2-color: #625F81;
-    --nav-background-color: #625F81; /* Example value */
-    --nav-link-color: white; /* Example value */
-    --nav-hover-link-color: #40DDAE; /* Example value */
-    --nav-hover-background-color: #555; /* Example value */
+    --nav-background-color: #625F81; 
+    --nav-link-color: white; 
+    --nav-hover-link-color: #40DDAE; 
+    --nav-hover-background-color: #555; 
    
 }
 body{
-    font-family: 'Lato', sans-serif; /* Use the imported font */
+    font-family: 'Lato', sans-serif; 
     font-weight: 300; /* Set weight here if needed */
     color: var(--primary-color);
     margin: 0;
@@ -106,7 +106,7 @@ textarea {
 
 footer {
     background-color: var(--primary-color-color);
-    color: white;
+    color: #4A188C;
     text-align: center;
     padding: 1rem;
     width: 100%;

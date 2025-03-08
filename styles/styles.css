@@ -44,8 +44,8 @@ footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+    
 }
-
 
 .lato-light {
     font-family: "Lato", serif;
@@ -58,4 +58,10 @@ footer {
     font-weight: 400;
     font-style: normal;
   }
-  
+ 
+  main {
+    max-width: 800px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the main content */
+    padding: 20px; /* Add some padding for spacing */
+    /* Add other styles as needed */
+}
