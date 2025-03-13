@@ -18,7 +18,12 @@ img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px gray;  
+}
+
+main img { /* Or img { if it's the only image you want to center */
+    display: block;
+    margin: 0 auto;
 }
 
 p {
@@ -27,12 +32,15 @@ p {
 
 aside{
     width: 20em;
-    margin: 1em;
-    border: 1px solid rgba(red, green, blue, alpha);
+    margin: 2em auto;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
     padding: 1em;
     background-color: aliceblue;
     color: darkslategrey;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 aside img {
@@ -60,8 +68,8 @@ footer {
   }
  
   main {
-    max-width: 800px; /* Adjust this value as needed */
-    margin: 0 auto; /* Center the main content */
-    padding: 20px; /* Add some padding for spacing */
-    /* Add other styles as needed */
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    
 }
