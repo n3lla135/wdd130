@@ -1,0 +1,213 @@
+:root {
+    --primary-color: #4A188C;
+    --secondary-color: #40DDAE;
+    --accent1-color: #7753ED;
+    --accent2-color: #625F81;
+    --nav-background-color: #625F81; 
+    --nav-link-color: white; 
+    --nav-hover-link-color: #40DDAE; 
+    --nav-hover-background-color: #555; 
+   
+}
+body{
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300; /* Set weight here if needed */
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+      }
+
+header{
+    padding: 20px;
+    background-color:var(--accent1-color);
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    display: block;
+    color:var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.Navigation{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.borderhero{
+
+    border:1px solid black;
+    padding: 20px;
+  display: flex;
+  flex-direction:row;
+    justify-content:space-evenly;
+}
+.borderhero p{
+    width: 75%
+}
+
+ h1{
+    text-align: center;
+ } 
+h2{
+    text-align: center;
+}
+
+.histophoto{
+    display: flex;
+    flex-direction:row;  
+}
+.histophoto p{
+    text-align: justify;
+    
+}
+
+.Caption{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+}
+
+
+.Sociallinks{
+display: flex;
+justify-content: right;
+flex-direction: row;
+width:100%;
+}
+
+form label,
+form input,
+form textarea {
+    display:block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: var(--primary-color-color);
+    color: #4A188C;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.Sociallinks {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.Sociallinks a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.Sociallinks img {
+    /* Style images here if needed */
+    width: 50px; /* Or whatever size you prefer */
+    height: 50px;
+}
+
+
+
+.call-to-action {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f0f0f0; /* Light gray background */
+    margin-bottom: 2rem; /* Add some spacing below */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.trip-descriptions {
+    display: flex;
+    flex-wrap: wrap; /* Allow trips to wrap onto multiple lines */
+    justify-content: space-around; /* Distribute trips evenly */
+}
+
+.trip {
+    width: 30%; /* Adjust width for desired layout */
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.trip ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.trip-table {
+    overflow-x: auto; /* Add horizontal scrollbar if table is too wide */
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: #f0f0f0;
+}
+
+/* Responsive Design (Example - adjust breakpoints as needed) */
+@media (max-width: 768px) {
+    .trip {
+        width: 45%; /* Two trips per row on smaller screens */
+    }
+}
+
+@media (max-width: 500px) {
+    .trip {
+        width: 100%; /* One trip per row on very small screens */
+    }
+}
+
+footer img { /* Style the wireframe image in the footer */
+    max-width: 200px; /* Limit width */
+    height: auto;
+    display: block; /* Make it a block element */
+    margin: 10px auto; /* Center it */
+}

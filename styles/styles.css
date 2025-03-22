@@ -1,0 +1,75 @@
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;  
+}
+
+main img { /* Or img { if it's the only image you want to center */
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    padding: 10px;
+}
+
+aside{
+    width: 20em;
+    margin: 2em auto;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    padding: 1em;
+    background-color: aliceblue;
+    color: darkslategrey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+    
+}
+
+.lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  main {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    
+}
