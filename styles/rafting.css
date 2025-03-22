@@ -69,6 +69,12 @@ h2{
     display: flex;
     flex-direction:row;  
 }
+
+.histophoto img{
+    display: block;
+    margin: 0 auto;
+}
+
 .histophoto p{
     text-align: justify;
     
@@ -78,6 +84,16 @@ h2{
 display: flex;
 justify-content: space-evenly;
 width: 100%;
+}
+
+figure{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+figcaption{
+    text-align: center;
 }
 
 
