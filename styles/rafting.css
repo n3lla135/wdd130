@@ -11,7 +11,7 @@
 }
 body{
     font-family: 'Lato', sans-serif; 
-    font-weight: 300; /* Set weight here if needed */
+    font-weight: 300; 
     color: var(--primary-color);
     margin: 0;
     padding: 0;
@@ -140,8 +140,7 @@ footer {
 }
 
 .Sociallinks img {
-    /* Style images here if needed */
-    width: 50px; /* Or whatever size you prefer */
+    width: 50px;
     height: 50px;
 }
 
@@ -150,14 +149,14 @@ footer {
 .call-to-action {
     text-align: center;
     padding: 2rem;
-    background-color: #f0f0f0; /* Light gray background */
-    margin-bottom: 2rem; /* Add some spacing below */
+    background-color: #f0f0f0; 
+    margin-bottom: 2rem; 
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff; /* Blue button */
+    background-color: #007bff; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -165,16 +164,16 @@ footer {
 
 .trip-descriptions {
     display: flex;
-    flex-wrap: wrap; /* Allow trips to wrap onto multiple lines */
-    justify-content: space-around; /* Distribute trips evenly */
+    flex-wrap: wrap; 
+    justify-content: space-around; 
 }
 
 .trip {
-    width: 30%; /* Adjust width for desired layout */
+    width: 30%; 
     margin-bottom: 2rem;
     border: 1px solid #ccc;
     padding: 1rem;
-    box-sizing: border-box; /* Include padding in width calculation */
+    box-sizing: border-box; 
 }
 
 .trip img {
@@ -189,7 +188,7 @@ footer {
 }
 
 .trip-table {
-    overflow-x: auto; /* Add horizontal scrollbar if table is too wide */
+    overflow-x: auto; 
 }
 
 .trip-table table {
@@ -208,22 +207,22 @@ footer {
     background-color: #f0f0f0;
 }
 
-/* Responsive Design (Example - adjust breakpoints as needed) */
+
 @media (max-width: 768px) {
     .trip {
-        width: 45%; /* Two trips per row on smaller screens */
+        width: 45%; 
     }
 }
 
 @media (max-width: 500px) {
     .trip {
-        width: 100%; /* One trip per row on very small screens */
+        width: 100%; 
     }
 }
 
-footer img { /* Style the wireframe image in the footer */
-    max-width: 200px; /* Limit width */
+footer img { 
+    max-width: 200px; 
     height: auto;
-    display: block; /* Make it a block element */
-    margin: 10px auto; /* Center it */
+    display: block;
+    margin: 10px auto; 
 }
